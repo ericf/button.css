@@ -4,7 +4,6 @@ input[type=submit],
 input[type=reset],
 .button {
     /* Structure */
-    /*display: inline-block;*/
     display: -webkit-inline-box;
     display: -moz-inline-stack;
     *display: inline;
@@ -19,7 +18,6 @@ input[type=reset],
     padding: 0 1em;
     line-height: normal;
     height: 2em;
-    /*line-height: 2.0;*/
     white-space: nowrap;
     vertical-align: baseline;
     text-align: center;
@@ -51,9 +49,6 @@ input[type=reset],
     -webkit-box-shadow: 0 1px 0 rgba(255,255,255, 0.30) inset, 0 1px 2px rgba(0,0,0, 0.15);
     -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.30) inset, 0 1px 2px rgba(0,0,0, 0.15);
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.30) inset, 0 1px 2px rgba(0,0,0, 0.15);
-    /*-webkit-box-shadow: 0 0 0 1px rgba(0,0,0, 0.25) inset, 0 2px 0 rgba(255,255,255, 0.30) inset, 0 1px 2px rgba(0,0,0, 0.15);
-    -moz-box-shadow: 0 0 0 1px rgba(0,0,0, 0.25) inset, 0 2px 0 rgba(255,255,255, 0.30) inset, 0 1px 2px rgba(0,0,0, 0.15);
-    box-shadow: 0 0 0 1px rgba(0,0,0, 0.25) inset, 0 2px 0 rgba(255,255,255, 0.30) inset, 0 1px 2px rgba(0,0,0, 0.15);*/
 
     /* Transitions */
     -webkit-transition: 0.1s linear -webkit-box-shadow;
@@ -90,9 +85,6 @@ input[type=reset]:active,
     -webkit-box-shadow: 0 2px 4px rgba(0,0,0, 0.30) inset, 0 1px 2px rgba(0,0,0, 0.15);
     -moz-box-shadow: 0 2px 4px rgba(0,0,0, 0.30) inset, 0 1px 2px rgba(0,0,0, 0.15);
     box-shadow: 0 2px 4px rgba(0,0,0, 0.30) inset, 0 1px 2px rgba(0,0,0, 0.15);
-    /*-webkit-box-shadow: 0 0 0 1px rgba(0,0,0, 0.25) inset, 0 2px 4px rgba(0,0,0, 0.30) inset, 0 1px 2px rgba(0,0,0, 0.15);
-    -moz-box-shadow: 0 0 0 1px rgba(0,0,0, 0.25) inset, 0 2px 4px rgba(0,0,0, 0.30) inset, 0 1px 2px rgba(0,0,0, 0.15);
-    box-shadow: 0 0 0 1px rgba(0,0,0, 0.25) inset, 0 2px 4px rgba(0,0,0, 0.30) inset, 0 1px 2px rgba(0,0,0, 0.15);*/
 }
 
 button[disabled],
@@ -120,9 +112,6 @@ input[type=reset][disabled]:active,
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
-    /*-webkit-box-shadow: 0 0 0 1px rgba(0,0,0, 0.25) inset;
-    -moz-box-shadow: 0 0 0 1px rgba(0,0,0, 0.25) inset;
-    box-shadow: 0 0 0 1px rgba(0,0,0, 0.25) inset;*/
 }
 
 button.primary,
